@@ -16,6 +16,10 @@ aggregation_default     = sum
 aggregation_mutate_rate = 0.0
 aggregation_options     = sum
 
+
+
+# EDITE OS VALORES ABAIXO!!! ______
+# [ VALORES DE BIAS ]
 # node bias options
 bias_init_mean          = 0.0
 bias_init_stdev         = 1.0
@@ -24,6 +28,8 @@ bias_min_value          = -30.0
 bias_mutate_power       = 0.5
 bias_mutate_rate        = 0.7
 bias_replace_rate       = 0.1
+
+
 
 # genome compatibility options
 compatibility_disjoint_coefficient = 1.0
@@ -58,6 +64,10 @@ response_mutate_power   = 0.0
 response_mutate_rate    = 0.0
 response_replace_rate   = 0.0
 
+
+
+# EDITE OS VALORES ABAIXO!!! ______
+# [ VALORES DOS PESOS ENTRE AS CONEXÕES ]
 # connection weight options
 weight_init_mean        = 0.0
 weight_init_stdev       = 1.0
@@ -70,11 +80,19 @@ weight_replace_rate     = 0.1
 [DefaultSpeciesSet]
 compatibility_threshold = 3.0
 
+
+
+# EDITE OS VALORES ABAIXO!!! ______
+# [ ESTAGNAÇÃO ]
 [DefaultStagnation]
 species_fitness_func = max
 max_stagnation       = 20
 species_elitism      = 2
 
+
+
+# EDITE OS VALORES ABAIXO!!! ______
+# [ REPRODUÇÃO ]
 [DefaultReproduction]
 elitism            = 2
 survival_threshold = 0.2
