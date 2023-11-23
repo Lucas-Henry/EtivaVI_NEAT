@@ -34,3 +34,9 @@
   pip install packeges.txt
   ```
 3. Open FlappyBird.py on your code editor/ IDE and run 
+
+
+# Link to presentation:
+ ```
+https://www.canva.com/design/DAF0mXJ-x3E/CiqcdzAr9JQx29LhoV4vSQ/edit?utm_content=DAF0mXJ-x3E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+ ```
