@@ -18,13 +18,13 @@ aggregation_options     = sum
 
 
 
-# EDITE OS VALORES ABAIXO!!! ______
+# EDITE OS VALORES ABAIXO!!! __________________
 # [ VALORES DE BIAS ]
 # node bias options
 bias_init_mean          = 0.0
 bias_init_stdev         = 1.0
-bias_max_value          = 30.0
-bias_min_value          = -30.0
+bias_max_value          = 0.1
+bias_min_value          = -0.1
 bias_mutate_power       = 0.5
 bias_mutate_rate        = 0.7
 bias_replace_rate       = 0.1
@@ -41,7 +41,8 @@ conn_delete_prob        = 0.5
 
 # connection enable options
 enabled_default         = True
-enabled_mutate_rate     = 0.01
+# EDITE OS VALORES ABAIXO!!! __________________
+enabled_mutate_rate     = 8.0
 
 feed_forward            = True
 initial_connection      = full
@@ -50,10 +51,16 @@ initial_connection      = full
 node_add_prob           = 0.2
 node_delete_prob        = 0.2
 
+
+
+# EDITE OS VALORES ABAIXO!!! __________________
+# [ CONFIGURAÇÕES DA REDE NEURAL ]
 # network parameters
-num_hidden              = 0
+num_hidden              = 3
 num_inputs              = 3
 num_outputs             = 1
+
+
 
 # node response options
 response_init_mean      = 1.0
@@ -66,7 +73,7 @@ response_replace_rate   = 0.0
 
 
 
-# EDITE OS VALORES ABAIXO!!! ______
+# EDITE OS VALORES ABAIXO!!! __________________
 # [ VALORES DOS PESOS ENTRE AS CONEXÕES ]
 # connection weight options
 weight_init_mean        = 0.0
@@ -82,7 +89,7 @@ compatibility_threshold = 3.0
 
 
 
-# EDITE OS VALORES ABAIXO!!! ______
+# EDITE OS VALORES ABAIXO!!! __________________
 # [ ESTAGNAÇÃO ]
 [DefaultStagnation]
 species_fitness_func = max
@@ -91,7 +98,7 @@ species_elitism      = 2
 
 
 
-# EDITE OS VALORES ABAIXO!!! ______
+# EDITE OS VALORES ABAIXO!!! __________________
 # [ REPRODUÇÃO ]
 [DefaultReproduction]
 elitism            = 2
