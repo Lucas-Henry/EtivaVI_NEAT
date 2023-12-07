@@ -31,7 +31,7 @@
 
 2. Download the follow dependencies in your terminal:
   ```
-  pip install packeges.txt
+  pip install -r packeges.txt
   ```
 3. Open FlappyBird.py on your code editor/ IDE and run 
 
